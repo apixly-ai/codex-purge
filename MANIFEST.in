@@ -5,4 +5,5 @@ include scripts/live_e2e.py
 include scripts/boundary_e2e.py
 include artifacts/live-e2e.json
 include artifacts/boundary-e2e.json
+include artifacts/third-party-e2e.json
 include artifacts/live-e2e-attempt-*.json

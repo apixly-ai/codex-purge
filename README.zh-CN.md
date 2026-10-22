@@ -52,4 +52,7 @@ cd codex-purge
 两种非操作性的有害鼓励请求均被拒绝或安全引导。**本轮没有观察到安全边界被改变，不能宣称破除服务端限制。**
 具体限制由哪一层执行，单凭当前 CLI 终态输出仍无法归因。
 
+随后也测试了 [第三方原版提示词和 CLI 组合](docs/third-party-comparison.md)：
+当前 GPT‑6.1 上未观察到优于基线的效果；匹配 GPT‑5.6 的补测因持续 429 中断，不能下有效或无效的结论。
+
 参考项目与署名见 [NOTICE](NOTICE.md)。由 [Apixly](https://github.com/apixly-ai) 独立维护。

@@ -111,6 +111,10 @@ were answered in all four modes; both non-operational harmful-encouragement
 probes received safe refusals in every mode. **No safety-boundary change was
 observed in that test.** The enforcement location remains unproven.
 
+A follow-up [original third-party comparison](docs/third-party-comparison.md)
+also found no improvement on these probes on GPT-6.1. The native GPT-5.6 follow-up
+was interrupted by 429 throttling and remains inconclusive.
+
 ## Design and lineage
 
 We studied DSH Purge and its community branches, Codex Red-Team Mode, prompt
