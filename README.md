@@ -105,6 +105,12 @@ They do not establish a general jailbreak success rate or removal of server-side
 policy. `doctor` alone is only a compatibility check. Desktop UI integration and
 Windows writes are not part of v0.1's validated scope.
 
+An additional [16-call boundary regression](docs/boundary-evaluation.md) compared
+baseline, append, replace and restored sessions. Benign educational questions
+were answered in all four modes; both non-operational harmful-encouragement
+probes received safe refusals in every mode. **No safety-boundary change was
+observed in that test.** The enforcement location remains unproven.
+
 ## Design and lineage
 
 We studied DSH Purge and its community branches, Codex Red-Team Mode, prompt
