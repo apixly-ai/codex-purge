@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
+<title id="title">Codex Purge by Apixly</title><desc id="desc">Inspectable, reversible instruction profiles. Preview. Switch. Verify. Roll back.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091b25"/><stop offset="1" stop-color="#102f35"/></linearGradient><linearGradient id="accent"><stop stop-color="#8ff5d2"/><stop offset="1" stop-color="#d3f7a3"/></linearGradient></defs>
+<rect width="1280" height="390" rx="22" fill="url(#bg)"/>
+<path d="M700 0v390M780 0v390M860 0v390M940 0v390M1020 0v390M1100 0v390M1180 0v390M700 70h580M700 150h580M700 230h580M700 310h580" stroke="#b8e8d7" stroke-opacity=".045"/>
+<rect x="50" y="43" width="114" height="28" rx="14" fill="#95f2cb" fill-opacity=".12"/>
+<text x="107" y="62" text-anchor="middle" fill="#9ef2cf" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">APIXLY / OSS</text>
+<text x="48" y="159" fill="#f2f7f5" font-family="Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-3">CODEX</text>
+<text x="315" y="159" fill="url(#accent)" font-family="Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-3">PURGE</text>
+<text x="52" y="213" fill="#c2d9d4" font-family="Arial,sans-serif" font-size="23">Your instructions. A clear way back.</text>
+<text x="52" y="270" fill="#93b0aa" font-family="Arial,sans-serif" font-size="16">Preview · Switch · Verify · Roll back</text>
+<text x="52" y="338" fill="#76978f" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.5">PYTHON 3.11+   /   ZERO RUNTIME DEPENDENCIES</text>
+<rect x="760" y="57" width="465" height="275" rx="13" fill="#071419" stroke="#31534f"/>
+<path d="M760 92h465" stroke="#25423f"/><circle cx="782" cy="75" r="4" fill="#d98879"/><circle cx="798" cy="75" r="4" fill="#d3ba7b"/><circle cx="814" cy="75" r="4" fill="#85c6a7"/>
+<text x="785" y="127" fill="#a4f3d0" font-family="monospace" font-size="16">$ codex-purge preview</text>
+<text x="785" y="166" fill="#7d9b93" font-family="monospace" font-size="15">preset</text><text x="932" y="166" fill="#e4f2ed" font-family="monospace" font-size="15">engineering</text>
+<text x="785" y="197" fill="#7d9b93" font-family="monospace" font-size="15">mode</text><text x="932" y="197" fill="#e4f2ed" font-family="monospace" font-size="15">append</text>
+<text x="785" y="228" fill="#7d9b93" font-family="monospace" font-size="15">rollback</text><text x="932" y="228" fill="#a4f3d0" font-family="monospace" font-size="15">hash-checked</text>
+<rect x="782" y="261" width="417" height="43" rx="6" fill="#a4f3d0" fill-opacity=".07"/>
+<text x="798" y="288" fill="#a4f3d0" font-family="monospace" font-size="14">Readable changes. Retained evidence.</text>
+</svg>

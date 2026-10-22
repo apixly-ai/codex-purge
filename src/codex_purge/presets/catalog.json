@@ -1,0 +1,8 @@
+{
+  "default": "engineering",
+  "rules": [],
+  "presets": {
+    "engineering": {"file": "engineering.md", "description": "Complete implementation with evidence and concise updates."},
+    "research": {"file": "research.md", "description": "Source-backed research with explicit uncertainty."}
+  }
+}

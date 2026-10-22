@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-purge"
+version = "0.1.0"
+description = "Inspectable, reversible instruction profiles for Codex CLI"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Apixly"}]
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+codex-purge = "codex_purge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+codex_purge = ["presets/*.json", "presets/*.md"]

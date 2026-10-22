@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-22T09:17:23+0800",
+  "codex_version": "codex-cli 0.159.2",
+  "model": "gpt-6.1-sol",
+  "provider": "configured Codex account authentication and provider",
+  "test": "Actual model response + real shell file read + exact final output; four modes",
+  "cases": [
+    {
+      "mode": "baseline",
+      "passed": true,
+      "exit_code": 0,
+      "terminal_exact_match": true,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 20.95,
+      "usage": [
+        {
+          "input_tokens": 51058,
+          "cached_input_tokens": 38528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 72,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "final_sha256": "3a5238b2dc1eb62dbcdb9cae8c7ba5e53526d61db9e628d3a551f62c0f3f7285"
+    },
+    {
+      "mode": "append",
+      "passed": true,
+      "exit_code": 0,
+      "terminal_exact_match": true,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 24.2,
+      "usage": [
+        {
+          "input_tokens": 51291,
+          "cached_input_tokens": 38656,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 202,
+          "reasoning_output_tokens": 85
+        }
+      ],
+      "final_sha256": "45bd7d8f71ab637b422f50b0eb054290d2a0bee47029749dffd03f3dfdfb9c94"
+    },
+    {
+      "mode": "replace",
+      "passed": true,
+      "exit_code": 0,
+      "terminal_exact_match": true,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 19.8,
+      "usage": [
+        {
+          "input_tokens": 42861,
+          "cached_input_tokens": 30336,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 68,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "final_sha256": "45bd7d8f71ab637b422f50b0eb054290d2a0bee47029749dffd03f3dfdfb9c94"
+    },
+    {
+      "mode": "restored",
+      "passed": true,
+      "exit_code": 0,
+      "terminal_exact_match": true,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 22.39,
+      "usage": [
+        {
+          "input_tokens": 51062,
+          "cached_input_tokens": 38528,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 76,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "final_sha256": "3a5238b2dc1eb62dbcdb9cae8c7ba5e53526d61db9e628d3a551f62c0f3f7285"
+    }
+  ],
+  "user_config_unchanged": true,
+  "profile_removed": true,
+  "elapsed_seconds": 87.43,
+  "all_passed": true,
+  "scope": "Proves instruction delivery and observable formatting changes, tool continuity and restore. Does not measure server-side safety bypass."
+}

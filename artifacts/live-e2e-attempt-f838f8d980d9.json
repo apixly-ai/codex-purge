@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-22T09:15:10+0800",
+  "codex_version": "codex-cli 0.159.2",
+  "model": "gpt-6.1-sol",
+  "provider": "configured Codex account authentication; ignore-user-config",
+  "test": "Actual model response + real shell file read + exact final output; four modes",
+  "cases": [
+    {
+      "mode": "baseline",
+      "passed": true,
+      "exit_code": 0,
+      "terminal_exact_match": true,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 16.18,
+      "usage": [
+        {
+          "input_tokens": 39522,
+          "cached_input_tokens": 31872,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 76,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "final_sha256": "5930583139bfd9279d355c612cdb1b44396eeb89ce048482fc545006586f71c3"
+    },
+    {
+      "mode": "append",
+      "passed": false,
+      "exit_code": 0,
+      "terminal_exact_match": false,
+      "shell_tool_calls": 1,
+      "elapsed_seconds": 13.88,
+      "usage": [
+        {
+          "input_tokens": 39509,
+          "cached_input_tokens": 31872,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 63,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "final_sha256": "5930583139bfd9279d355c612cdb1b44396eeb89ce048482fc545006586f71c3"
+    }
+  ],
+  "user_config_unchanged": true,
+  "profile_removed": true,
+  "elapsed_seconds": 30.15,
+  "all_passed": false,
+  "scope": "Proves instruction delivery and observable formatting changes, tool continuity and restore. Does not measure server-side safety bypass."
+}

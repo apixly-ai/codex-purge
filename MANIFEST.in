@@ -1,0 +1,6 @@
+include README.zh-CN.md NOTICE.md LICENSE
+include bin/codex-purge
+recursive-include docs *.md *.svg
+include scripts/live_e2e.py
+include artifacts/live-e2e.json
+include artifacts/live-e2e-attempt-*.json
