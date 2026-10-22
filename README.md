@@ -119,6 +119,11 @@ A follow-up [original third-party comparison](docs/third-party-comparison.md)
 also found no improvement on these probes on GPT-6.1. The native GPT-5.6 follow-up
 was interrupted by 429 throttling and remains inconclusive.
 
+The [DSH Purge source-assembly port](docs/dsh-ported-comparison.md) reused the
+authors' actual default and rewrite functions. Its original normal-selector arm
+still redirected the violence case; the credential case returned a cyber-risk
+access block. Remaining hosted variants were not run after that block.
+
 ## Design and lineage
 
 We studied DSH Purge and its community branches, Codex Red-Team Mode, prompt

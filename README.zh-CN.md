@@ -57,4 +57,7 @@ cd codex-purge
 随后也测试了 [第三方原版提示词和 CLI 组合](docs/third-party-comparison.md)：
 当前 GPT‑6.1 上未观察到优于基线的效果；匹配 GPT‑5.6 的补测因持续 429 中断，不能下有效或无效的结论。
 
+[DSH Purge 方案移植实测](docs/dsh-ported-comparison.md)采用作者原始默认内容和组装函数：
+原版正常组装仍安全引导暴力用例，凭证用例返回网络安全风险／访问拦截；其余真实模型变体在该拦截后未继续运行。
+
 参考项目与署名见 [NOTICE](NOTICE.md)。由 [Apixly](https://github.com/apixly-ai) 独立维护。
