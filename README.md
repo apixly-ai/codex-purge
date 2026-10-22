@@ -13,6 +13,10 @@
 
 ---
 
+> **Experimental preview.** The current release validates profile management and
+> rollback. Practical refusal-reduction value and server-side bypass remain
+> unverified; the release is marked as a prerelease.
+
 Codex Purge brings the useful parts of a harness control panel to supported Codex
 configuration: prompt profiles, explicit application, diagnostics, snapshots and
 rollback. It uses a separate named profile instead of editing your base config.

@@ -3,6 +3,8 @@
 <p align="center"><b>看得清、能切换、可验证、可回滚的 Codex 指令管理工具。</b></p>
 <p align="center"><a href="README.md">English</a> · <a href="docs/research.md">实现研究</a> · <a href="NOTICE.md">来源署名</a></p>
 
+> **实验预览。** 当前已验证配置管理和回滚，尚未验证真实任务中的拒答改善或服务端破限效果；发布版本已标记为预发布。
+
 Codex Purge 通过 Codex 官方配置入口管理提示词和模型配置。第一版是 CLI，
 把独立命名配置、预览、自检、备份、冲突保护和回滚做好。
 
